@@ -18,6 +18,9 @@
     "test-fixture": "PolymerElements/test-fixture#^1.0.0"
   },
   "resolutions": {
-    "polymer": "^1.2.4"
+    "polymer": "^1.2.4",
+    "open-elements": "master",
+    "iron-ajax": "1.2.0",
+    "paper-input": "1.1.9"
   }
 }
