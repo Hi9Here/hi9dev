@@ -7,10 +7,17 @@
     "paper-elements": "PolymerElements/paper-elements#^1.0.1",
     "platinum-elements": "PolymerElements/platinum-elements#^1.1.0",
     "neon-elements": "PolymerElements/neon-elements#^1.0.0",
-    "page": "visionmedia/page.js#~1.6.3"
+    "page": "visionmedia/page.js#~1.6.3",
+    "smarter-leaner": "Hi9Here/smarter-leaner#master",
+    "open-elements": "marcus7777/open-elements#master",
+    "pair-production": "marcus7777/pair-production#master",
+    "markdown-editor": "markdown-editor#master"
   },
   "devDependencies": {
     "web-component-tester": "*",
     "test-fixture": "PolymerElements/test-fixture#^1.0.0"
+  },
+  "resolutions": {
+    "polymer": "^1.2.4"
   }
 }
