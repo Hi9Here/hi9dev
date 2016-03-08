@@ -85,6 +85,11 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
             <span>Agile</span>
           </a>
 
+          <a data-route="roadmap" href="/roadmap" on-click="onDataRouteClick">
+            <iron-icon icon="roadmap"></iron-icon>
+            <span>Road Map</span>
+          </a>
+
           <a data-route="elements" href="/elements" on-click="onDataRouteClick">
             <iron-icon icon="info"></iron-icon>
             <span>Elements</span>
@@ -138,6 +143,12 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
                   <p>This is where we work</p>
                 </paper-material>
               </a>
+              <a href="/roadmap">
+                <paper-material elevation="1">
+                  <h3>Road Map</h3>
+                  <p>This is where we want to go</p>
+                </paper-material>
+              </a>
               <a href="/elements">
                 <paper-material elevation="1">
                   <h3>List of Elements</h3>
@@ -161,6 +172,11 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
             <section data-route="agile">
                 <h2 class="page-title">agile</h2>
                 <smarter-leaner></smarter-leaner>
+            </section>
+
+            <section data-route="roadmap">
+                <h2 class="page-title">roadmap</h2>
+                <road-map></road-map>
             </section>
 
             <section data-route="elements">
