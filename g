@@ -12,3 +12,5 @@ do
   git rev-list --all --header > ../../dist/bower_components/${D}/gitlog && \
   cd ../..
 done 
+git add gitRepos/
+git commit -am "added gitRepos/"
