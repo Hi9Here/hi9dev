@@ -74,20 +74,15 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
 
         <!-- Drawer Content -->
         <paper-menu class="list" attr-for-selected="data-route" selected="[[route]]">
-
-          <a data-route="home" href="/" on-click="onDataRouteClick">
-            <iron-icon icon="home"></iron-icon>
-            <span>Home</span>
+          
+          <a data-route="roadmap" href="/roadmap" on-click="onDataRouteClick">
+            <iron-icon icon="explore"></iron-icon>
+            <span>Road Map</span>
           </a>
 
           <a data-route="agile" href="/agile" on-click="onDataRouteClick">
             <iron-icon icon="view-week"></iron-icon>
             <span>Agile</span>
-          </a>
-
-          <a data-route="roadmap" href="/roadmap" on-click="onDataRouteClick">
-            <iron-icon icon="explore"></iron-icon>
-            <span>Road Map</span>
           </a>
 
           <a data-route="elements" href="/elements" on-click="onDataRouteClick">
@@ -161,12 +156,12 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
                   <p>This is our Production Suite for Polymer</p>
                 </paper-material>
               </a>
-              <a href="/wiki">
+              <!-- <a href="/wiki">
                 <paper-material elevation="1">
                   <h3>Wiki</h3>
                   <p>This is how we work</p>
                 </paper-material>
-              </a>
+              </a> -->
             </section>
 
             <section data-route="agile">
