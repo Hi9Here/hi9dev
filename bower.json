@@ -11,7 +11,8 @@
     "smarter-leaner": "Hi9Here/smarter-leaner#master",
     "open-elements": "marcus7777/open-elements#master",
     "pair-production": "marcus7777/pair-production#master",
-    "road-map": "Hi9Here/road-map"
+    "road-map": "Hi9Here/road-map",
+    "poly-wiki": "Hi9Here/poly-wiki"
   },
   "devDependencies": {
     "web-component-tester": "*",
@@ -21,6 +22,8 @@
     "polymer": "^1.2.4",
     "open-elements": "master",
     "iron-ajax": "1.2.0",
-    "paper-input": "^1.0.0"
+    "paper-input": "^1.0.9",
+    "mediator-data": "49b3b0a19d",
+    "markdown-edit": "c37ec4c0ad"
   }
 }
