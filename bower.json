@@ -12,7 +12,8 @@
     "open-elements": "marcus7777/open-elements#master",
     "pair-production": "marcus7777/pair-production#master",
     "road-map": "Hi9Here/road-map",
-    "poly-wiki": "Hi9Here/poly-wiki"
+    "poly-wiki": "Hi9Here/poly-wiki",
+    "hi9-login": "Hi9Here/hi9-login"
   },
   "devDependencies": {
     "web-component-tester": "*",
@@ -24,6 +25,7 @@
     "iron-ajax": "1.2.0",
     "paper-input": "^1.0.9",
     "mediator-data": "49b3b0a19d",
-    "markdown-edit": "c37ec4c0ad"
+    "markdown-edit": "c37ec4c0ad",
+    "firebase-element": "0b1f9b9508"
   }
 }
